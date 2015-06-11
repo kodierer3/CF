@@ -53,3 +53,6 @@ gemfire_store:
   gemfire_logging_api:
     version: 1.5.8
     repository_root: "{default.repository.root}/slf4j-api"
+spring_instrument:
+  version: 4.0.+
+  repository_root: "http://muvoncfbuildpack.dyndns.org:1235/muvon"
