@@ -21,7 +21,7 @@
 
 jre:
   version: 1.8.0_+
-  repository_root: "http://muvoncfbuildpack.dyndns.org:1235/muvon"
+  repository_root: "http://muvoncfbuildpack.dyndns.org:1235/oracle"
 memory_calculator:
   version: 1.+
   repository_root: "{default.repository.root}/memory-calculator/{platform}/{architecture}"
