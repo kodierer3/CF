@@ -16,13 +16,13 @@
 # Configuration for components to use in the buildpack
 ---
 containers:
-  - "JavaBuildpack::Container::DistZip"
-  - "JavaBuildpack::Container::Groovy"
-  - "JavaBuildpack::Container::JavaMain"
-  - "JavaBuildpack::Container::PlayFramework"
-  - "JavaBuildpack::Container::Ratpack"
-  - "JavaBuildpack::Container::SpringBoot"
-  - "JavaBuildpack::Container::SpringBootCLI"
+#  - "JavaBuildpack::Container::DistZip"
+#  - "JavaBuildpack::Container::Groovy"
+#  - "JavaBuildpack::Container::JavaMain"
+#  - "JavaBuildpack::Container::PlayFramework"
+#  - "JavaBuildpack::Container::Ratpack"
+#  - "JavaBuildpack::Container::SpringBoot"
+#  - "JavaBuildpack::Container::SpringBootCLI"
   - "JavaBuildpack::Container::Tomcat"
 
 # In order to use Oracle JREs instead of OpenJDK, you must comment out the OpenJDK line and uncomment the Oracle line.
@@ -36,7 +36,7 @@ frameworks:
 # - "JavaBuildpack::Framework::IntroscopeAgent"
 # - "JavaBuildpack::Framework::DynaTraceAgent"
   - "JavaBuildpack::Framework::JavaOpts"
-  - "JavaBuildpack::Framework::JrebelAgent"
+#  - "JavaBuildpack::Framework::JrebelAgent"
   - "JavaBuildpack::Framework::MariaDbJDBC"
   - "JavaBuildpack::Framework::NewRelicAgent"
   - "JavaBuildpack::Framework::PlayFrameworkAutoReconfiguration"
